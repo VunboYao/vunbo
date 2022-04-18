@@ -4,4 +4,4 @@
 
 ## JavaScript
 
-- getType: 获取返回数据类型（小写）
+- getType: 获取返回数据类型
