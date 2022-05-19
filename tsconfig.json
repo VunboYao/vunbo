@@ -1,0 +1,7 @@
+{
+  "extends": "@vunbo/config-ts"
+  // "compilerOptions": {
+  //   "target": "esnext",
+  //   "module": "esnext"
+  // }
+}
