@@ -1,6 +1,6 @@
 {
   "name": "vunbo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "development tools",
   "main": "lib/vunbo.cjs.js",
   "module": "lib/vunbo.esm.js",
@@ -17,6 +17,11 @@
     "type": "git",
     "url": "git+https://github.com/VunboYao/vunbo.git"
   },
+  "keywords": [
+    "typeof",
+    "tools",
+    "FE-tools"
+  ],
   "author": "vunbo",
   "license": "ISC",
   "bugs": {
@@ -34,7 +39,7 @@
     "@babel/preset-typescript": "^7.17.12",
     "@rollup/plugin-typescript": "^8.3.2",
     "@types/jest": "^27.5.1",
-    "@vunbo/config-ts": "^1.0.5",
+    "@vunbo/config-ts": "^1.0.6",
     "@vunbo/eslint-config": "^1.0.1",
     "babel-jest": "^28.1.0",
     "commitizen": "^4.2.4",

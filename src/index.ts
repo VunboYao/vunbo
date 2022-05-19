@@ -1,1 +1,4 @@
-export { getType } from './getType'
+export {
+  getType,
+  isObject,
+} from './getType'

@@ -6,7 +6,7 @@ specifiers:
   '@babel/preset-typescript': ^7.17.12
   '@rollup/plugin-typescript': ^8.3.2
   '@types/jest': ^27.5.1
-  '@vunbo/config-ts': ^1.0.5
+  '@vunbo/config-ts': ^1.0.6
   '@vunbo/eslint-config': ^1.0.1
   babel-jest: ^28.1.0
   commitizen: ^4.2.4
@@ -23,7 +23,7 @@ devDependencies:
   '@babel/preset-typescript': registry.npmjs.org/@babel/preset-typescript/7.17.12_@babel+core@7.17.12
   '@rollup/plugin-typescript': registry.npmjs.org/@rollup/plugin-typescript/8.3.2_dwhto3eknlchw7qifl3asmnahy
   '@types/jest': registry.npmjs.org/@types/jest/27.5.1
-  '@vunbo/config-ts': registry.npmjs.org/@vunbo/config-ts/1.0.5
+  '@vunbo/config-ts': registry.npmjs.org/@vunbo/config-ts/1.0.6
   '@vunbo/eslint-config': registry.npmjs.org/@vunbo/eslint-config/1.0.1_hcfsmds2fshutdssjqluwm76uu
   babel-jest: registry.npmjs.org/babel-jest/28.1.0_@babel+core@7.17.12
   commitizen: registry.npmjs.org/commitizen/4.2.4
@@ -2458,10 +2458,10 @@ packages:
       eslint-visitor-keys: registry.npmjs.org/eslint-visitor-keys/3.3.0
     dev: true
 
-  registry.npmjs.org/@vunbo/config-ts/1.0.5:
-    resolution: {integrity: sha512-7GMVZO5glU+a5Msx/rkVmSnEFHjd/ZjYYzV6Kr+A3TaXWMVuAbheV9hmJ4cwASbBRpzFYrob1SMaaGYyLduN8g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@vunbo/config-ts/-/config-ts-1.0.5.tgz}
+  registry.npmjs.org/@vunbo/config-ts/1.0.6:
+    resolution: {integrity: sha512-/rj000W3UBq+U2yR/n1P4pP1XH7+B5aSP4zCcvx3/pQk1Wax53CLzXecJiIeMMSevZq4Bib7YYLNr8YjAoTKMw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@vunbo/config-ts/-/config-ts-1.0.6.tgz}
     name: '@vunbo/config-ts'
-    version: 1.0.5
+    version: 1.0.6
     dev: true
 
   registry.npmjs.org/@vunbo/eslint-config/1.0.1_hcfsmds2fshutdssjqluwm76uu:
