@@ -11,3 +11,11 @@ export function getType(element: any): string {
 export function isObject(val: any): boolean {
   return getType(val) === 'object'
 }
+
+export function isNull(val: any): boolean {
+  return getType(val) === 'null'
+}
+
+export function isUndefined(val: any): boolean {
+  return getType(val) === 'undefined'
+}
