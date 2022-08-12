@@ -4,3 +4,5 @@ export {
   isNull,
   isUndefined,
 } from './getType'
+
+export { to } from './async'
