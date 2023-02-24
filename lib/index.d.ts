@@ -5,6 +5,11 @@ declare function isUndefined(val: any): boolean;
 
 declare const to: (promise: Promise<any>) => Promise<(null | any)[]>;
 
+interface iEventItem {
+    event: iHandler;
+    thisArg: any;
+}
+type iEventMap = Record<string, iEventItem[]>;
 type iHandler = (...args: any) => unknown;
 
 declare class EventBus {
@@ -21,4 +26,4 @@ declare class EventBus {
     off(eventName: string, handler: iHandler): void;
 }
 
-export { EventBus, getType, isNull, isObject, isUndefined, to };
+export { EventBus, getType, iEventItem, iEventMap, iHandler, isNull, isObject, isUndefined, to };

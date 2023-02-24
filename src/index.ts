@@ -8,3 +8,5 @@ export {
 export { to } from './async'
 
 export { EventBus } from './eventBus'
+
+export * from './type'
