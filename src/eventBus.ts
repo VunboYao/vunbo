@@ -29,7 +29,7 @@ export class EventBus {
   }
 
   // 发布
-  emit(eventName: string, ...args: any): void {
+  emit(eventName: string, ...args: any[]): void {
     // 若事件已订阅
     if (this.eventMap[eventName]) {
       const funcList = this.eventMap[eventName]
