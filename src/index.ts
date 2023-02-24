@@ -6,3 +6,5 @@ export {
 } from './getType'
 
 export { to } from './async'
+
+export { EventBus } from './eventBus'

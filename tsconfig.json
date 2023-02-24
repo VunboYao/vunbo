@@ -2,5 +2,8 @@
   "extends": "@vunbo/config-ts",
   "compilerOptions": {
     "target": "ES3"
-  }
+  },
+  "include": [
+    "src/*"
+  ]
 }

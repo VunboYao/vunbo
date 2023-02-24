@@ -1,4 +1,4 @@
-import { to } from '../lib/vunbo.esm.js'
+import { EventBus, to } from '../lib/index.js'
 
 function foo() {
   return new Promise((resolve) => {
@@ -18,11 +18,11 @@ function bar() {
 }
 
 async function run() {
-  const [err, res] = await to(foo())
+  /* const [err, res] = await to(foo())
   console.log(err, res) // null, 'success'
 
   const [err2, res2] = await to(bar())
-  console.log(err2, res2) // reject undefined
+  console.log(err2, res2) // reject undefined */
 }
 
 run()
