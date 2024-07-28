@@ -2,6 +2,17 @@
   "name": "vunbo",
   "version": "1.0.6",
   "description": "development tools",
+  "keywords": [
+    "typeof",
+    "tools",
+    "FE-tools"
+  ],
+  "license": "ISC",
+  "author": "vunbo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VunboYao/vunbo.git"
+  },
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
@@ -13,17 +24,6 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VunboYao/vunbo.git"
-  },
-  "keywords": [
-    "typeof",
-    "tools",
-    "FE-tools"
-  ],
-  "author": "vunbo",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/VunboYao/vunbo/issues"
   },
